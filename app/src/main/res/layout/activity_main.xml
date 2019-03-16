@@ -11,9 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#ff0000"
+        android:background="@color/color0Panel1"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="@dimen/margen_superior"
         android:clickable="true">
 
     </LinearLayout>
@@ -24,8 +24,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:background="#00ff00"
-        android:layout_marginTop="20dp">
+        android:background="@color/color0Panel2"
+        android:layout_marginTop="@dimen/margen_superior">
 
     </LinearLayout>
 
@@ -35,8 +35,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="horizontal"
-        android:background="#0000ff"
-        android:layout_marginTop="20dp">
+        android:background="@color/color0Panel3"
+        android:layout_marginTop="@dimen/margen_superior">
 
     </LinearLayout>
 
